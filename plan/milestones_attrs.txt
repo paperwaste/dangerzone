@@ -1,0 +1,26 @@
+1. Build greedy player (no tree)
+	longest jump path, or
+	heuristic placement
+2. x-ply minimax (no alpha-beta pruning)
+3. a-b pruning
+4. machinbne learn util function parameters
+
+
+Ecal features
+	untakable positions
+	safe for now positions
+	set up jump chain? hard
+	encapsulate security with a nominal attribute:
+		"number of required adjacent DEAD or SELF to fully secure THIS piecei, and how many ways can it be done"
+			-> because if my piece needs 1 more, but there are 2 ways to secure it, the other player only has one move and can't take it without us letting them.
+		"number of adjacent SELF tokens reinforced by this placement"
+	
+	"formations" that serve offensive or defensive functions?
+		chains vs security
+
+Game invariants
+	a secure position cannot become insecure later
+
+TODO:
+	Lachie: Greedy player
+		states, 

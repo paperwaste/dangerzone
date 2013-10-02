@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import beng.jumperB.ObjectDeserializer;
+import beng.io.ObjectDeserializer;
 import beng.jumperB.UtilityScorer;
 import weka.core.Instances;
 
